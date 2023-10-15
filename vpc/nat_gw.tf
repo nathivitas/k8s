@@ -1,6 +1,6 @@
 # Create Elastic IP
 resource "aws_eip" "main" {
-  vpc              = true
+  #vpc              = true
 }
 
 # Create NAT Gateway

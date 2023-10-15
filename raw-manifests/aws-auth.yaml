@@ -11,7 +11,7 @@ data:
         - system:bootstrappers
         - system:nodes
   mapUsers: |
-    - userarn: arn:aws:iam::<aws-account-id>:user/<iam-user-profile>
-      username: <iam-user-profile>
+    - userarn:  arn:aws:iam::165274966895:user/naty
+      username: naty
       groups:
         - system:masters
